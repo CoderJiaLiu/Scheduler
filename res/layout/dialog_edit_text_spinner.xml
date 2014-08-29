@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rename_layout"
+    android:layout_width="@dimen/dialog_edit_text_frame_width"
+    android:layout_height="@dimen/dialog_edit_text_frame_height"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="@dimen/dialog_edit_text_width"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:minHeight="@dimen/dialog_edit_text_height" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/common_spinner_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

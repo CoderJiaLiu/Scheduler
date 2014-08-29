@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/add_kind"
+        android:showAsAction="always"
+        android:title="@string/add_kind"
+        android:visible="true"/>
+    <item
+        android:id="@+id/remove_kinds"
+        android:showAsAction="always"
+        android:title="@string/remove_kinds"
+        android:visible="true"/>
+    <item
+        android:id="@+id/cancel"
+        android:showAsAction="always"
+        android:title="@string/menu_item_cancel"
+        android:visible="false"/>
+    <item
+        android:id="@+id/ok"
+        android:showAsAction="always"
+        android:title="@string/menu_item_ok"
+        android:visible="false"/>
+</menu>

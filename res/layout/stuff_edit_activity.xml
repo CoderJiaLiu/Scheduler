@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/category_sp"
+            style="@style/common_spinner_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+
+        <Spinner
+            android:id="@+id/kind_sp"
+            style="@style/common_spinner_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:id="@+id/intent_sp"
+            style="@style/common_spinner_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:id="@+id/rb_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/category_sp"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/pressure_rb_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/label_rating_bar_layout" />
+
+            <include
+                android:id="@+id/importance_rb_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/label_rating_bar_layout" />
+
+            <include
+                android:id="@+id/emergency_rb_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/label_rating_bar_layout" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/multi_line_edit_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rb_area"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/press_to_edit" />
+
+        <include
+            android:id="@+id/dead_date_area"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:layout_below="@id/description"
+            layout="@layout/label_des_layout"/>
+
+        <include
+            android:id="@+id/dead_time_area"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:layout_below="@id/dead_date_area"
+            layout="@layout/label_des_layout" />
+    </RelativeLayout>
+
+</ScrollView>

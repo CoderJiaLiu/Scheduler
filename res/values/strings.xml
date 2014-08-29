@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="authority">com.lucas.scheduler.provider</string>
+    <string name="app_name">Scheduler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="intent_for_living">维持生活</string>
+    <string name="intent_for_better_living">更好的生活</string>
+	<string name="intent_for_fun">乐趣</string>
+	
+	<string name="category_work">工作</string>
+	<string name="category_study">学习</string>
+	<string name="category_xiuxian">休闲</string>
+	<string name="category_amussement">娱乐</string>
+	<string name="category_shopping">购物</string>
+	<string name="category_daily">日常</string>
+
+	<string name="kind_linux">Linux</string>
+	<string name="kind_sql">SQL</string>
+	<string name="kind_network">网络</string>
+	<string name="kind_design_pattern">设计模式</string>
+	<string name="kind_android">Android</string>
+	<string name="kind_fix_bug">修改</string>
+	<string name="kind_design">设计</string>
+	<string name="kind_coding">编码</string>
+	<string name="kind_release">发版本</string>
+	<string name="kind_game">玩游戏</string>
+	<string name="kind_ktv">KTV</string>
+	<string name="kind_meeting">开会</string>
+	<string name="kind_super_market">逛超市</string>
+	<string name="kind_street">逛街</string>
+	<string name="kind_net_shopping">网购</string>
+	<string name="kind_tour">旅游</string>
+	<string name="kind_vacation">度假</string>
+	<string name="kind_bathe">洗浴</string>
+	<string name="kind_shower">洗漱</string>
+	<string name="kind_sleeping">睡觉</string>
+	<string name="kind_mai_cai">买菜</string>
+	<string name="kind_cooking">做饭</string>
+	<string name="kind_wash_dish">刷碗</string>
+	<string name="kind_clean">打扫房间</string>
+	
+	<string name="menu_item_add_stuff">增加事务</string>
+	<string name="menu_item_delete_stuff">删除事务</string>
+	<string name="menu_item_cancel">取消</string>
+	<string name="menu_item_ok">确定</string>
+	
+	<string name="dialog_btn_ok">确定</string>
+	<string name="dialog_btn_cancel">取消</string>
+	<string name="dialog_title_create_stuff">创建事务</string>
+	<string name="dialog_edittext_hint_stuff">输入事务名称</string>
+	
+	<string name="importance">重要:</string>
+	<string name="emergency">紧急:</string>
+	<string name="pressure">压力:</string>
+	
+	<string name="press_to_edit">点击进行编辑</string>
+	<string name="input_des">输入描述信息</string>
+	
+	<string name="dead_date">终结日期</string>
+	<string name="dead_time">终结时间</string>
+	<string name="edit_categorys">编辑事务类型</string>
+	<string name="add_category">新增类别</string>
+	<string name="remove_categorys">删除类别</string>
+	<string name="add_kind">新增种类</string>
+	<string name="remove_kinds">删除种类</string>
+	<string name="add_intents">新增意图</string>
+	
+	<string name="input_category_title">输入类别名称</string>
+</resources>

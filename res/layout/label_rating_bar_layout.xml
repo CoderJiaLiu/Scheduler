@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="@dimen/rating_label_width"
+        android:layout_height="wrap_content"
+        android:singleLine="true"/>
+
+    <RatingBar
+        android:id="@+id/rating"
+        style="@style/common_rating_bar_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>
